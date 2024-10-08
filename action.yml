@@ -6,6 +6,10 @@ inputs:
     required: true
     default: false
     type: boolean
+  hederaVersion: 
+    description: 'Version of Hedera to use. Defaults to Mainnet version.'
+    required: false
+    default: 'v0.52.2' 
 outputs:
   accountId:
     description: "Hedera account id for a new account"

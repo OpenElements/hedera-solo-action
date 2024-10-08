@@ -14,6 +14,13 @@ The GitHub action takes the following inputs:
   If set to `true`, the action will install a mirror node in addition to the main node.
   The mirror node can be accessed at `localhost:8080`.
 
+| Input          | Description                   | Required | Default |
+|----------------|-------------------------------|----------|---------|
+| `installRelay` | Install JSON-RPC-Relay        | false    | false   |
+
+- `installRelay`: A boolean parameter that is `false` by default.
+  If set to `true`, the action will install the JSON-RPC-Relay as part of the setup process. This allows you to easily add a relay to your Hedera network setup. The relay is installed using the `solo relay deploy` command.
+
 ## Outputs
 
 The GitHub action outputs the following information:

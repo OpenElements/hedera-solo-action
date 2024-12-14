@@ -13,7 +13,7 @@ inputs:
   mirrorNodePort:
     description: "Port for Mirror Node"
     required: false
-    default: "8080"
+    default: "8070"
   installRelay:
     description: "Install JSON-RPC-Relay"
     required: false
